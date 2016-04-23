@@ -1,0 +1,10 @@
+<meta>
+    <info author="Riddy" type="script" name="Robbery" descriptions="Allow players to rob stores to earn money" version="1.3"/>
+    <script src="rob_c.lua" type="client"/>
+	<script src="rob_s.lua" type="server"/>
+	
+	<settings>
+		<setting name="*cooldown" friendlyname="Cooldown time" accept="false,number" value="false" examples="10" desc="Disable or Set robbery cooldown time by default in minutes" /> 
+	</settings>
+	
+</meta>
